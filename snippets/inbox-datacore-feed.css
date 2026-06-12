@@ -1,0 +1,77 @@
+.inbox-feed .inbox-feed-group {
+  margin-bottom: 10px;
+}
+
+.inbox-feed .inbox-feed-summary {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--text-accent);
+  padding: 5px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.inbox-feed .inbox-feed-summary::-webkit-details-marker {
+  display: none;
+}
+
+.inbox-feed .inbox-feed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 0 10px 10px;
+  border-left: 2px solid var(--background-modifier-border);
+}
+
+.inbox-feed .inbox-feed-item {
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background-color 120ms ease;
+}
+
+.inbox-feed .inbox-feed-item:hover,
+.inbox-feed .inbox-feed-item:focus-visible {
+  background-color: var(--background-modifier-hover);
+  outline: none;
+}
+
+.inbox-feed .inbox-feed-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--background-secondary-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  flex-shrink: 0;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.inbox-feed .inbox-feed-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.inbox-feed .inbox-feed-header {
+  font-size: 13px;
+}
+
+.inbox-feed .inbox-feed-prefix {
+  color: var(--text-muted);
+}
+
+.inbox-feed .inbox-feed-title {
+  font-weight: 500;
+  color: var(--text-normal);
+}
+
+.inbox-feed .inbox-feed-subtext {
+  font-size: 11px;
+  color: var(--text-faint);
+}
