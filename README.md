@@ -113,7 +113,7 @@ MIT use freely, modify, share.
 
 ## Screenshots
 
-![Screenshot 1](https://i.ibb.co/1GxZ5GWk/14f99012f7d5.png)
+![Screenshot 1](https://i.ibb.co/CpMpMLkL/4529af0f748c.png)
 ## Installation
 
 1. Download the `.md` file(s) from this repo
